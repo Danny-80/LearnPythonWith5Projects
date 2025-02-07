@@ -3,7 +3,7 @@ def print_board(board):
         row_str = " "
         for j, value in enumerate(row):
             row_str += value
-            if j != len(row) - 1:
+            if j != len(row) -1:
                 row_str += " | "
 
         print(row_str)
