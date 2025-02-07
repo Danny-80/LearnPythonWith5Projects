@@ -1,6 +1,6 @@
 def print_board(board):
     for i, row in enumerate(board):
-        row_str = " "
+        row_str = "*"
         for j, value in enumerate(row):
             row_str += value
             if j != len(row) -1:
